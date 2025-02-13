@@ -17,7 +17,7 @@ dependencies = [
 lint = 'ruff check'
 pre_format = 'ruff check --fix'
 format = 'ruff format'
-run = 'fastapi dev fast_zero/app.py'
+run = 'fastapi dev api_data_sales/main.py'
 pre_test = 'task lint'
 test = 'pytest -s -x --cov=fast_zero -vv'
 post_test = 'coverage html'
