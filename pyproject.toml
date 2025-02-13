@@ -1,0 +1,19 @@
+[project]
+name = "api-data-sales"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jeova BL",email = "jeovab115@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard] (>=0.115.8,<0.116.0)"
+]
+
+[tool.poetry.scripts]
+start = "api_data_sales.main:run"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
